@@ -1,0 +1,74 @@
+$MIN: 0px;
+$XSM: 375px;
+$XS: 480px;
+$XSD: 580px;
+$SM: 768px;
+$SMD: 980px;
+$MD: 1025px;
+$MDD: 1200px;
+$MDL: 1367px;
+$XL: 1680px;
+
+// media queries
+
+@mixin Responsive($canvas) {
+  @if $canvas == MIN {
+    @media only screen and (min-width: $MIN) {
+      @content;
+    }
+  }
+
+  @else if $canvas == XSM {
+    @media only screen and (min-width: $XSM) {
+      @content;
+    }
+  }
+
+  @else if $canvas == XS {
+    @media only screen and (min-width: $XS) {
+      @content;
+    }
+  }
+
+  @else if $canvas == XSD {
+    @media only screen and (min-width: $XSD) {
+      @content;
+    }
+  }
+
+  @else if $canvas == SM {
+    @media only screen and (min-width: $SM) {
+      @content;
+    }
+  }
+
+  @else if $canvas == SMD {
+    @media only screen and (min-width: $SMD) {
+      @content;
+    }
+  }
+
+  @else if $canvas == MD {
+    @media only screen and (min-width: $MD) {
+      @content;
+    }
+  }
+
+  @else if $canvas == MDD {
+    @media only screen and (min-width: $MDD) {
+      @content;
+    }
+  }
+
+  @else if $canvas == MDL {
+    @media only screen and (min-width: $MDL) {
+      @content;
+    }
+  }
+
+  @else if $canvas == XL {
+    @media only screen and (min-width: $XL) {
+      @content;
+    }
+  }
+}

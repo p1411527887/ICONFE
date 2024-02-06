@@ -1,0 +1,278 @@
+.wrap-table-data {
+  border: 1px dashed rgba(125, 125, 125, 0.5) !important;
+  position: relative;
+
+  &__footer {
+    border: 1px dashed rgba(125, 125, 125, 0.5) !important;
+  }
+
+  .ant-table-thead {
+    font-size: 16px;
+  }
+
+  .ant-table-tbody {
+    font-size: 14px;
+  }
+}
+
+.ant-table-cell {
+  color: var(--text-color) !important;
+  border-bottom: 1px dashed rgba(125, 125, 125, 0.5) !important;
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+.ant-table-cell:before {
+  background: rgba(125, 125, 125, 0.5) !important;
+}
+
+.ant-table {
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+.ant-form-item-label {
+  label {
+    color: var(--text-color) !important;
+  }
+
+  font-weight: 650;
+}
+
+.ant-picker {
+  border-radius: 3px;
+  color: var(--text-color) !important;
+  background: none;
+  width: 100%;
+
+  .ant-picker-input {
+    input {
+      color: var(--text-color) !important;
+    }
+
+    input::-webkit-input-placeholder {
+      color: var(--text-color);
+    }
+  }
+}
+
+.ant-picker:hover {
+  border-color: var(--primary-color);
+}
+
+.ant-select-selector {
+  background-color: transparent !important;
+  border-radius: 3px !important;
+}
+
+.ant-select:hover {
+  .ant-select-selector {
+    border-color: var(--primary-color) !important;
+  }
+}
+
+.ant-upload-icon {
+  display: none;
+}
+
+.ant-upload-list-item-progress {
+  display: none;
+}
+
+.ant-select-arrow {
+  color: var(--text-color) !important;
+}
+
+.ant-upload-select {
+  width: 100%;
+}
+
+.ant-input {
+  border-radius: 3px;
+  color: var(--text-color);
+  background: none;
+}
+
+.ant-input:focus {
+  box-shadow: none;
+  border-color: var(--primary-color) !important;
+}
+
+.ant-input:hover {
+  border-color: var(--primary-color) !important;
+}
+.ant-input::placeholder{
+  color: var(--text-color);
+}
+.ant-table-body {
+  //height: 100vh;
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 80px;
+    background: #C1C1C1;
+    border-radius: 12px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #FFFFFF;
+    border-radius: 12px;
+  }
+
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  .ant-table-tbody {
+    font-size: 14px;
+  }
+}
+
+.ant-upload-list-item-name {
+  color: var(--text-color) !important;
+}
+
+.title-input-upload {
+  color: var(--text-color);
+}
+
+.ant-upload-list-item-uploading:hover {
+  background: none !important;
+}
+
+.ant-upload-list-item-actions {
+  button {
+    opacity: 1 !important;
+
+    svg {
+      color: var(--text-color);
+    }
+  }
+}
+
+.btn-upload-file {
+  color: #FFFFFF;
+  border: none;
+  background: var(--primary-color);
+}
+
+.ant-input-password {
+  border-radius: 3px;
+  background: none;
+}
+
+.ant-input-suffix {
+  svg {
+    color: var(--text-color);
+  }
+}
+
+.btn-upload-file:hover {
+  color: #FFFFFF !important;
+  background: var(--primary-color-light);
+}
+
+.ant-select-selection-item {
+  color: var(--text-color);
+}
+
+.ant-picker-status-error {
+  background-color: transparent !important;
+}
+
+.ant-menu-submenu-title {
+  .ant-menu-title-content {
+    color: #FFFFFF !important;
+  }
+}
+
+.ant-input-number {
+  border-radius: 3px;
+  width: 100%;
+  background-color: transparent;
+
+  .ant-input-number-input {
+    color: var(--text-color);
+  }
+}
+
+.ant-input-number:hover {
+  border-color: var(--primary-color);
+
+  .ant-input-number-handler-wrap {
+    border-radius: 0;
+    background: var(--primary-color);
+
+    svg {
+      color: #FFFFFF;
+    }
+  }
+}
+
+.ant-input-number:focus {
+  border-color: var(--primary-color) !important;
+}
+.ant-input-number:focus-within{
+  border-color: var(--primary-color) !important;
+}
+
+.active-scroll {
+  cursor: grabbing;
+}
+
+.ant-table-body::-webkit-scrollbar {
+  display: none !important;
+}
+
+.ant-table-cell-scrollbar {
+  display: none;
+}
+
+.ant-pagination {
+  padding: 10px;
+
+  li {
+    background-color: transparent;
+
+    a {
+      color: var(--text-color) !important;
+    }
+
+    button {
+      span {
+        svg {
+          color: var(--text-color);
+        }
+      }
+    }
+
+    .ant-pagination-options-quick-jumper {
+      color: var(--text-color);
+    }
+  }
+
+  .ant-pagination-item-active {
+    border: none;
+    background-color: var(--primary-color) !important;
+
+    a {
+      color: #FFFFFF !important;
+    }
+  }
+}
+
+.ant-btn-default {
+  border: none;
+  color: #FFFFFF;
+  background-color: var(--primary-color) !important;
+}
+
+.ant-btn-default:hover {
+  color: #FFFFFF !important;
+  background-color: var(--primary-color-light) !important;
+}
+
+.anticon-calendar {
+  svg {
+    color: var(--text-color) !important;
+  }
+}

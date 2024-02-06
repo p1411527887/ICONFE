@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --nav-bar-bg: #112143;
+  --nav-bar-bg-rgb: rgba(17, 33, 67,0.9);
+  --bg-layout-setting: #0A1735;
+  --bg-button: #0D99FF;
+  --text-color: #F0F0F0;
+  --primary-color: #0D99FF;
+  --border-color: rgba(13, 153, 255, 0.2);
+  --primary-color-light: #052E60;
+  --icon-color:#F0F0F0;
+  --bg-modal : #112143;
+  --border-modal-color: rgba(255, 255, 255, 0.07)
+}
+
+[data-theme='dark'] {
+  --nav-bar-bg: #242526;
+  --nav-bar-bg-rgb: rgba(36, 37, 38, 0.9);
+  --bg-layout-setting: #242526;
+  --text-color: #e4e4e4;
+  --icon-color:#f1f4fb;
+  --bg-modal : #242526;
+  --border-modal-color: rgba(255, 255, 255, 0.07)
+}
+
+[data-theme='light'] {
+  --nav-bar-bg: #FFFFFF;
+  --nav-bar-bg-rgb: rgba(255, 255, 255, 0.9);
+  --bg-layout-setting: #FFFFFF;
+  --text-color: #797979;
+  --icon-color: #464646;
+  --bg-modal : #FFFFFF;
+  --border-modal-color: rgba(0, 0, 0, 0.1);
+}
+
+[data-color='orange'] {
+  --primary-color: #F19C49;
+  --primary-color-light: #C37837;
+  --border-color: rgba(241, 156, 73, 0.2);
+}
+
+[data-color='pink'] {
+  --primary-color: #F6ABB6;
+  --primary-color-light: #C5939B;
+  --border-color: rgba(246, 171, 182, 0.2);
+}
+
+[data-color='cerulean blue'] {
+  --primary-color: #2189A3;
+  --primary-color-light: #1E748A;
+  --border-color: rgba(33, 137, 163, 0.2);
+}
+
+[data-color='purple'] {
+  --primary-color: #8528A6;
+  --primary-color-light: #672180;
+  --border-color: rgba(133, 40, 166, 0.2);
+}
+
+[data-color='yellow'] {
+  --primary-color: #F0C434;
+  --primary-color-light: #C29E2B;
+  --border-color: rgba(240, 196, 52, 0.2);
+}
+
+[data-color='green'] {
+  --primary-color: #47B522;
+  --primary-color-light: #44A623;
+  --border-color: rgba(71, 181, 34, 0.2);
+}
+
+[data-color='deep pink'] {
+  --primary-color: #FF1493;
+  --primary-color-light: #CC1478;
+  --border-color: rgba(255, 20, 147, 0.2);
+}
+
+[data-color='laurel green'] {
+  --primary-color: #B0C391;
+  --primary-color-light: #94A578;
+  --border-color: rgba(176, 195, 145, 0.2);
+}
+
+[data-color='avocado'] {
+  --primary-color: #B2BD42;
+  --primary-color-light: #868F2F;
+  --border-color: rgba(178, 189, 66, 0.2);
+}
+.bg-success{
+  background-color: rgba(25,135,84) !important;
+}
+.bg-success:hover{
+  background-color: rgba(25,135,84) !important;
+}
+.bg-info{
+  background-color: rgba(13,202,240) !important;
+}
+.bg-info:hover{
+  background-color: rgba(13,202,240) !important;
+}
+.bg-danger{
+  background-color: rgba(220,53,69) !important;
+}
+.bg-danger:hover{
+  background-color: rgba(220,53,69) !important;
+}
+.bg-secondary{
+  background-color: rgba(108,117,125) !important;
+}
+.bg-secondary:hover{
+  background-color: rgba(108,117,125) !important
+}
